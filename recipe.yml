@@ -133,7 +133,7 @@ stages:
             buildflags: "-v"
             source:
                 url: "https://github.com/tbvdm/sigtop/archive/refs/heads/master.zip"
-                type: zip
+                type: tar
 
           # -> Hachiman Custom Actions
 
