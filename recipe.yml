@@ -128,12 +128,12 @@ stages:
                     - "org.mozilla.Thunderbird"
 
           # Signal Backup Utility
-          - name: sigtop
-            type: go
-            buildflags: "-v"
-            source:
-                url: "https://github.com/tbvdm/sigtop/archive/refs/heads/master.zip"
-                type: tar
+          # - name: sigtop
+          #   type: go
+          #   buildflags: "-v"
+          #   source:
+          #       url: "https://github.com/tbvdm/sigtop/archive/refs/heads/master.zip"
+          #       type: tar
 
           # -> Hachiman Custom Actions
 
