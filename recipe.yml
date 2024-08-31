@@ -31,6 +31,7 @@ stages:
                     - nano
                     - vim
                     - ssh
+                    - flatpak
 
           - name: install-flatpak-app
             type: flatpak
